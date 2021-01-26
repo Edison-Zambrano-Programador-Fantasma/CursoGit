@@ -31,7 +31,10 @@ git reset --hard 47474 ->(codigoVersion)
 //hacer seguimiento a todos los archivos de un proyecto
 git add .
 
-//
+//hacer un add y un commit juntos
+git commit -am "Descripcion"
+
+
 
 
 
