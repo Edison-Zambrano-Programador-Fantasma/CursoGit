@@ -1,0 +1,39 @@
+ir a la carpeta en la consola e git
+
+
+//inicia o crea un repositorio
+git init
+
+//revisar estatus de los archivos para ver seguimiento
+git status -s
+
+//hacer seguimiento a un unico archivo
+git add nombreArchivo.extension
+git add index.html
+
+//perima vez pide emial e username
+git config --global user.username "Edison"
+git config --global user.email "edison2015a@gmail.com"
+
+//hacer respaldo actual y agregar descripcion
+git commit -m "Comienzo del proyecto"
+
+//llevar al area de ensayo el archivo antes del commit
+git add index.html
+
+//ver las copias
+git log --oneline
+
+//regresar a version anterior de nuestro proyecto
+git reset --hard 47474 ->(codigoVersion)
+
+//***** Subir proyecto a GitHub *****
+//hacer seguimiento a todos los archivos de un proyecto
+git add .
+
+//
+
+
+
+
+
